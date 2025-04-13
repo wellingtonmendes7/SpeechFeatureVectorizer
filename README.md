@@ -17,19 +17,19 @@ This software provides a user interface to extract acoustic features from interv
 
 # How to Use
 1. Prepare your files: Place your .wav and .TextGrid files in separate directories (ensure matching filenames).
-2. Run the script:
+2. Run the script.
 3. Use the GUI prompts to: Select the directory containing .wav files. Select the directory containing .TextGrid files. Choose where to save the output file (.txt format). The script will automatically process all matching file pairs and save the results.
 
 # Output
 The resulting .txt file will include the following columns:
-a) participant:	Name of the file (without extension)
-b) word:	Label from the TextGrid tier
-c) intensity:	Intensity in dB (band-limited to 500 Hz)
-d) hnr:	Harmonic-to-noise ratio (in dB, capped at 20 dB)
-e) duration:	Duration in seconds
-f) zcr:	Zero-crossing rate (full spectrum)
-g) cog:	Center of Gravity in Hz
-h) cog_log:	Log-transformed CoG (natural log)
+- a) participant:	Name of the file (without extension)
+- b) word:	Label from the TextGrid tier
+- c) intensity:	Intensity in dB (band-limited to 500 Hz)
+- d) hnr:	Harmonic-to-noise ratio (in dB, capped at 20 dB)
+- e) duration:	Duration in seconds
+- f) zcr:	Zero-crossing rate (full spectrum)
+- g) cog:	Center of Gravity in Hz
+- h) cog_log:	Log-transformed CoG (natural log)
 
 # Customization
 - To change the frequency thresholds (min_freq, max_freq, lp_cutoff), edit the corresponding variables in the run_gui() function.
