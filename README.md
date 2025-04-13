@@ -1,5 +1,5 @@
 # SpeechFeatureVectorizer  
-**TextGrid Acoustic Feature Extractor Script**  
+**TextGrid Acoustic Feature Extractor Software**  
 This software provides a user interface to extract acoustic features from intervals labeled in `.TextGrid` files and computes values such as intensity, harmonic-to-noise ratio (HNR), duration, zero-crossing rate (ZCR), and spectral center of gravity (CoG). It is designed for linguistic and phonetic research, particularly for data annotated using **Praat**.
 
 # Features
