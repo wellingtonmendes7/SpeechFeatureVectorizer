@@ -2,7 +2,7 @@
 **TextGrid Acoustic Feature Extractor Script**  
 This software provides a user interface to extract acoustic features from intervals labeled in `.TextGrid` files and computes values such as intensity, harmonic-to-noise ratio (HNR), duration, zero-crossing rate (ZCR), and spectral center of gravity (CoG). It is designed for linguistic and phonetic research, particularly for data annotated using **Praat**.
 
-## Features
+# Features
 - Extracts acoustic features for each labeled interval:
   - **Intensity** (band-limited up to 500 Hz)
   - **Harmonic-to-noise ratio (HNR)** (up to 500 Hz)
@@ -41,19 +41,23 @@ h) cog_log:	Log-transformed CoG (natural log)
 - Uses log1p() for safer log transformations (avoiding log(0)).
 - Output is a plain .txt file, not Excel — can be opened in any spreadsheet software.
 
-## Requirements
+# Requirements
 - Python 3.7+
 - `librosa` (audio processing)
 - `numpy` (numerical operations)
 - `tgt` (for reading TextGrid files)
 - `tkinter` (built-in GUI support)
 
-## Authors
+# Authors
 Wellington Mendes (UFU)
+
 📧 Email: wellington.mendes@ufu.br
+
 https://orcid.org/0000-0002-1459-4183
 
 Elisa Mattos (UFV)
+
 📧 Email: elisa.mattos@ufv.br
+
 https://orcid.org/0000-0002-4787-1837
 
