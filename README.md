@@ -48,16 +48,14 @@ h) cog_log:	Log-transformed CoG (natural log)
 - `tgt` (for reading TextGrid files)
 - `tkinter` (built-in GUI support)
 
-# Authors
+# Contact
+For questions, suggestions, or bug reports, please contact the authors using the emails below.
+
 Wellington Mendes (UFU)
-
-📧 Email: wellington.mendes@ufu.br
-
-https://orcid.org/0000-0002-1459-4183
+📧 Email: wellington.mendes@ufu.br  |  https://orcid.org/0000-0002-1459-4183
 
 Elisa Mattos (UFV)
+📧 Email: elisa.mattos@ufv.br  |  https://orcid.org/0000-0002-4787-1837
 
-📧 Email: elisa.mattos@ufv.br
-
-https://orcid.org/0000-0002-4787-1837
-
+# License
+This script is distributed under the MIT License. Feel free to modify and use it in your academic or professional projects.
